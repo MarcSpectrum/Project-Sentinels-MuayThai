@@ -3,6 +3,12 @@
   "tree": {
     "$className": "DataModel",
 
+    "Workspace": {
+      "Dump": {
+        "$path" : "src/Dump"
+      }
+    },
+    
     "ReplicatedStorage": {
       "Modules": {
         "$path" : "src/Modules"

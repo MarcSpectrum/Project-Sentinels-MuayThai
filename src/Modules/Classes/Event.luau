@@ -2,10 +2,10 @@ local eventClass, connectionClass = {}, {}
 eventClass.__index, connectionClass.__index = eventClass, connectionClass
 
 function eventClass.new()
-    local self = setmetatable({}, eventClass)
-    self.Next = self
+	local self = setmetatable({}, eventClass)
+	self.Next = self
 	self.Previous = self
-    return self
+	return self
 end
 
 function eventClass:Connect(func, parameter)
